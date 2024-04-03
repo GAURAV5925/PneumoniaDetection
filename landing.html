@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pneumonia Detection System</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <a href="index.html">
+      <i class="fa fa-home" style="font-size: 48px; color: red"></i>
+    </a>
+
+    <h1>Pneumonia Detection System</h1>
+
+    <form id="upload-form">
+      <label for="file-upload">Upload Chest X-Ray:</label>
+      <input
+        type="file"
+        id="file-upload"
+        accept="image/*"
+        placeholder="Select an image"
+      />
+      <br />
+      <img id="preview-image" alt="Preview" />
+      <span id="filename-output"></span>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
